@@ -24,7 +24,7 @@ namespace TechJobs.ViewModels
         [Required]
         public int PositionTypesID { get; set; }
 
-        // TODO #3 - Included other fields needed to create a job,
+        // TODO #3 CHECK - Included other fields needed to create a job,
         // with correct validation attributes and display names.
 
         public List<SelectListItem> Employers { get; set; } = new List<SelectListItem>();
@@ -45,8 +45,8 @@ namespace TechJobs.ViewModels
                     Text = field.Value
                 });
             }
-
-            // TODO #4 - populate the other List<SelectListItem> 
+            //List <Select * Refer_to 
+            // TODO #4 CHECK - populate the other List<SelectListItem> 
             // collections needed in the view
             //copied the employer one just replaced Employer or Employers with whichever field Uses another method in the jobdata file to make a list of all the options
 
